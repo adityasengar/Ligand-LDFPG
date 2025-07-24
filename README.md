@@ -51,7 +51,7 @@ python edm_diff.py \
 Launch the sweep on a SLURM system:
 
 ```bash
-sbatch sweep_gpu2.sh
+sbatch edm_sweep.sh
 ```
 
 * Each run is configured with a unique combination of hyperparameters.
