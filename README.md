@@ -9,7 +9,7 @@ A PyTorch implementation for training and sampling a latent-space diffusion mode
 ```
 .
 ├── edm_diff.py             # Main training & sampling script
-├── sweep_gpu2.sh           # Bash script for SLURM sweep
+├── edm_sweep.sh           # Bash script for SLURM sweep
 ├── latent_reps/
 │   └── pooled_embedding.h5 # Example HDF5 dataset (input)
 ├── checkpoints/            # Model checkpoints (output)
